@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.top-bar{
+    margin-left:auto;
+    margin-right: 100px;
+    margin-top: auto;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: grey;
+}
+.stuff::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.tab{
+    margin-left: auto;
+}
+.button-8 {
+  background-color: white;
+  border: none;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover{
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+.food{
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:80px;
+    width: 280px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+}
+.daca{
+    width: 80%;
+    height: 50%;
+    margin:auto;
+    margin-top: 20px;
+}
+.food img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.price{
+    margin-top: 20px;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+}
+.soluong{
+    width: 3em;
+	padding: 0.5em;
+	border: .2em solid grey;
+	border-radius: 1em;
+	text-align: center;
+	color: grey;
+	appearance: textfield;
+	margin: 0;
+	&::-webkit-inner-spin-button {
+		opacity: 1;
+		background: red;
+	}
+}
+.button-24 {
+  margin-top: 5px;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+.button-33 {
+  margin-right: auto;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

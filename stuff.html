@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>An Vat</title>
+        <link rel = "stylesheet" href = "bt.css">
+        <script src = "stuff.js"></script>
+    </head>
+    <body>
+        <div class = "top-bar">
+            <div class = "tab">
+            <button onclick = "home()" class = "button-8">Home</button>
+            <button onclick = "stuff()" class = "button-8">Giỏ hàng</button>
+            <button class="button-33" role="button" onclick = "resetlocal()">Reset cart - Xóa đơn hàng</button>
+            </div>
+        </div>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+        <br>
+        <br>
+        <table id = "sp">
+          <tr>
+            <td>#</td>
+            <td>Tên sản phẩm</td>
+            <td>Đơn giá</td>
+            <td>Số lượng</td>
+            <td>Giá tiền</td>
+          </tr>
+          <script>see()</script>
+        </table> 
+
+    <form class = "for" name = "contact-form" id = "contact-form">
+      <br>
+      <label for="fname" class = "lbfname">Họ và tên:</label>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname" class = "sdt">Số điện thoại:</label>
+      <input type="text" id="sdt" name="sdt"><br><br>
+      <input type="submit" class = "button-3" onclick = "dathang()" value = "Đặt hàng">
+      <br>
+      <br>
+    </form> 
+      <style>
+        .lbfname{
+          margin-top: 20px;
+          font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+          font-size: 20px;
+          
+        }
+        .sdt{
+          font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+          font-size: 20px;
+          margin-top: 40px;
+          
+        }
+        .for{
+          margin: auto;
+          background-color: #c2c2d6;
+          width: 40%;
+          border-radius: 10px;
+          text-align: center;
+        }
+      .button-3 {
+        appearance: none;
+        position: absolute;
+        background-color: #2ea44f;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: 200px;
+        height: 50px;;
+      }
+
+      .button-3:focus:not(:focus-visible):not(.focus-visible) {
+        box-shadow: none;
+        outline: none;
+      }
+
+      .button-3:hover {
+        background-color: #2c974b;
+      }
+
+      .button-3:focus {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+      }
+
+      .button-3:disabled {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+      }
+
+      .button-3:active {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+      }
+      </style>
+        <h3 id = "change">Nếu bạn muốn chỉnh sửa lại số lượng, xin vui lòng quay về trang chính để thay đổi số lượng theo yêu cầu</h3>
+        <h3>Thông tin liên hệ: <a href = "https://www.facebook.com/kien.lam.140193">Facebook Store</a></h3>
+        <br>
+        <br>
+    </body>
+</html>
